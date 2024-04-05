@@ -1,0 +1,630 @@
+Mar 17 00:04:01 honeypot CRON[343006]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 17 00:04:04 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 17 00:04:04 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 17 00:04:04 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 17 00:04:04 honeypot CRON[343006]: pam_unix(cron:session): session closed for user omsagent
+Mar 17 00:05:01 honeypot CRON[343169]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 17 00:05:01 honeypot CRON[343169]: pam_unix(cron:session): session closed for user root
+Mar 17 00:07:49 honeypot su: pam_unix(su-l:session): session closed for user cowrie
+Mar 17 00:07:49 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 17 00:07:51 honeypot sshd[342551]: Received disconnect from 174.72.211.11 port 50109:11: disconnected by user
+Mar 17 00:07:51 honeypot sshd[342551]: Disconnected from user mrja 174.72.211.11 port 50109
+Mar 17 00:07:51 honeypot sshd[342478]: pam_unix(sshd:session): session closed for user mrja
+Mar 17 00:07:51 honeypot systemd-logind[562]: Session 1528 logged out. Waiting for processes to exit.
+Mar 17 00:07:51 honeypot systemd-logind[562]: Removed session 1528.
+Mar 22 16:58:11 honeypot systemd-logind[574]: New seat seat0.
+Mar 22 16:58:11 honeypot systemd-logind[574]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Mar 22 16:58:14 honeypot sshd[872]: Server listening on 0.0.0.0 port 22.
+Mar 22 16:58:14 honeypot sshd[872]: Server listening on :: port 22.
+Mar 22 16:58:18 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAptUpdates.sh
+Mar 22 16:58:18 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 16:58:32 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 16:58:48 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/bin/id
+Mar 22 16:58:48 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 16:58:48 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 16:58:48 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/sbin/waagent --version
+Mar 22 16:58:48 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 16:58:48 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 16:58:48 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/sbin/waagent --version
+Mar 22 16:58:48 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 16:58:49 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 16:59:16 honeypot sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/opt/microsoft/omsagent/ruby/bin/ruby /opt/microsoft/omsagent/plugin/collectantimalwareinfo.rb
+Mar 22 16:59:16 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 16:59:16 honeypot sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/opt/microsoft/omsagent/plugin/processinvestigator
+Mar 22 16:59:16 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 16:59:16 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 16:59:16 honeypot sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=list
+Mar 22 16:59:16 honeypot sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=list
+Mar 22 16:59:16 honeypot sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/opt/microsoft/omsagent/plugin/omsbaseline -d /opt/microsoft/omsagent/plugin/ -b OMS.Docker.Linux
+Mar 22 16:59:16 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 16:59:16 honeypot sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/opt/microsoft/omsagent/plugin/omsbaseline -d /opt/microsoft/omsagent/plugin/
+Mar 22 16:59:16 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 16:59:18 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 16:59:18 honeypot su: (to root) root on none
+Mar 22 16:59:18 honeypot su: pam_unix(su-l:session): session opened for user root by (uid=0)
+Mar 22 16:59:18 honeypot systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Mar 22 16:59:18 honeypot su: pam_unix(su-l:session): session closed for user root
+Mar 22 16:59:19 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 16:59:19 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:00:01 honeypot CRON[2724]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:00:01 honeypot CRON[2723]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:00:01 honeypot CRON[2723]: pam_unix(cron:session): session closed for user root
+Mar 22 17:00:01 honeypot CRON[2724]: pam_unix(cron:session): session closed for user root
+Mar 22 17:04:01 honeypot CRON[2957]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 17:04:02 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 17:04:02 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 17:04:02 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:04:02 honeypot CRON[2957]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 17:05:01 honeypot CRON[3115]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:05:01 honeypot CRON[3115]: pam_unix(cron:session): session closed for user root
+Mar 22 17:05:19 honeypot aad_certhandler[3135]: Version: 1.0.023850001; user: maryraycialyn.anteza@unlv.edu
+Mar 22 17:05:19 honeypot aad_certhandler[3135]: This is an Azure machine
+Mar 22 17:05:19 honeypot sshd[3133]: Certificate extension "displayname@sshservice.azure.net" is not supported
+Mar 22 17:05:19 honeypot sshd[3133]: Certificate extension "oid@sshservice.azure.net" is not supported
+Mar 22 17:05:19 honeypot sshd[3133]: Certificate extension "tid@sshservice.azure.net" is not supported
+Mar 22 17:05:19 honeypot aad_certhandler[3136]: Version: 1.0.023850001; user: maryraycialyn.anteza@unlv.edu
+Mar 22 17:05:19 honeypot aad_certhandler[3136]: This is an Azure machine
+Mar 22 17:05:19 honeypot sshd[3133]: Certificate extension "displayname@sshservice.azure.net" is not supported
+Mar 22 17:05:19 honeypot sshd[3133]: Certificate extension "oid@sshservice.azure.net" is not supported
+Mar 22 17:05:19 honeypot sshd[3133]: Certificate extension "tid@sshservice.azure.net" is not supported
+Mar 22 17:05:19 honeypot sshd[3133]: pam_aad(sshd:account): AadAuthorize, Version: 1.0.023850001; CorrelationId: 19c6e260-a4a3-46c5-8ab9-989f04a1f921
+Mar 22 17:05:19 honeypot sshd[3133]: pam_aad(sshd:account): This is an Azure machine
+Mar 22 17:05:20 honeypot sshd[3133]: pam_aad(sshd:account): Login granted for maryraycialyn.anteza@unlv.edu as an admin.
+Mar 22 17:05:20 honeypot sshd[3133]: Accepted publickey for maryraycialyn.anteza@unlv.edu from 40.112.144.250 port 23208 ssh2: RSA-CERT SHA256:+IWJMnGW4HQfdkWwIST6reWVl8E0iToKqMNLpVGCuxk ID cc5ce520-a6d9-4241-bf13-6dec246b8696@1a8394eb-b8b1-4871-ae52-56e04831f0a3 (serial 0) CA RSA SHA256:TpTTqdmn63GXwdaVqK03Q6HuUmyrEFCwH4QkrK5a1bg
+Mar 22 17:05:20 honeypot sshd[3133]: pam_unix(sshd:session): session opened for user maryraycialyn.anteza@unlv.edu by (uid=0)
+Mar 22 17:05:20 honeypot systemd-logind[574]: New session 6 of user maryraycialyn.anteza@unlv.edu.
+Mar 22 17:05:20 honeypot systemd: pam_aad(systemd-user:account): AadAuthorize, Version: 1.0.023850001; CorrelationId: b630e336-5246-4163-acc7-762d451e1466
+Mar 22 17:05:20 honeypot systemd: pam_aad(systemd-user:account): This is an Azure machine
+Mar 22 17:05:20 honeypot systemd: pam_aad(systemd-user:account): Login granted for maryraycialyn.anteza@unlv.edu as an admin.
+Mar 22 17:05:20 honeypot systemd: pam_unix(systemd-user:session): session opened for user maryraycialyn.anteza@unlv.edu by (uid=0)
+Mar 22 17:05:55 honeypot sshd[3284]: Accepted publickey for mrja from 174.72.211.11 port 50645 ssh2: RSA SHA256:vWM8pU9yXjJ63BZiBSK1oOs3Gr8hXu3TNVRa2FT5qqA
+Mar 22 17:05:55 honeypot sshd[3284]: pam_unix(sshd:session): session opened for user mrja by (uid=0)
+Mar 22 17:05:55 honeypot systemd-logind[574]: New session 8 of user mrja.
+Mar 22 17:05:55 honeypot systemd: pam_unix(systemd-user:session): session opened for user mrja by (uid=0)
+Mar 22 17:06:06 honeypot sudo:     mrja : TTY=pts/1 ; PWD=/home/mrja ; USER=root ; COMMAND=/usr/bin/apt update
+Mar 22 17:06:06 honeypot sudo: pam_unix(sudo:session): session opened for user root by mrja(uid=0)
+Mar 22 17:06:09 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:06:12 honeypot sudo:     mrja : TTY=pts/1 ; PWD=/home/mrja ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar 22 17:06:12 honeypot sudo: pam_unix(sudo:session): session opened for user root by mrja(uid=0)
+Mar 22 17:07:03 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:08:10 honeypot sshd[11405]: error: maximum authentication attempts exceeded for root from 119.247.141.124 port 60880 ssh2 [preauth]
+Mar 22 17:08:10 honeypot sshd[11405]: Disconnecting authenticating user root 119.247.141.124 port 60880: Too many authentication failures [preauth]
+Mar 22 17:08:14 honeypot sshd[11417]: error: maximum authentication attempts exceeded for root from 119.247.141.124 port 32804 ssh2 [preauth]
+Mar 22 17:08:14 honeypot sshd[11417]: Disconnecting authenticating user root 119.247.141.124 port 32804: Too many authentication failures [preauth]
+Mar 22 17:08:18 honeypot sshd[11422]: Received disconnect from 119.247.141.124 port 32984:11: disconnected by user [preauth]
+Mar 22 17:08:18 honeypot sshd[11422]: Disconnected from authenticating user root 119.247.141.124 port 32984 [preauth]
+Mar 22 17:08:21 honeypot sshd[11448]: Invalid user admin from 119.247.141.124 port 33126
+Mar 22 17:08:22 honeypot sshd[11448]: error: maximum authentication attempts exceeded for invalid user admin from 119.247.141.124 port 33126 ssh2 [preauth]
+Mar 22 17:08:22 honeypot sshd[11448]: Disconnecting invalid user admin 119.247.141.124 port 33126: Too many authentication failures [preauth]
+Mar 22 17:08:26 honeypot sshd[11482]: Invalid user admin from 119.247.141.124 port 33305
+Mar 22 17:08:27 honeypot sshd[11482]: error: maximum authentication attempts exceeded for invalid user admin from 119.247.141.124 port 33305 ssh2 [preauth]
+Mar 22 17:08:27 honeypot sshd[11482]: Disconnecting invalid user admin 119.247.141.124 port 33305: Too many authentication failures [preauth]
+Mar 22 17:08:31 honeypot sshd[11499]: Invalid user admin from 119.247.141.124 port 33547
+Mar 22 17:08:31 honeypot sshd[11499]: Received disconnect from 119.247.141.124 port 33547:11: disconnected by user [preauth]
+Mar 22 17:08:31 honeypot sshd[11499]: Disconnected from invalid user admin 119.247.141.124 port 33547 [preauth]
+Mar 22 17:08:35 honeypot sshd[11502]: Invalid user oracle from 119.247.141.124 port 33734
+Mar 22 17:08:36 honeypot sshd[11502]: error: maximum authentication attempts exceeded for invalid user oracle from 119.247.141.124 port 33734 ssh2 [preauth]
+Mar 22 17:08:36 honeypot sshd[11502]: Disconnecting invalid user oracle 119.247.141.124 port 33734: Too many authentication failures [preauth]
+Mar 22 17:08:39 honeypot sshd[11504]: Invalid user oracle from 119.247.141.124 port 33943
+Mar 22 17:08:40 honeypot sshd[11504]: error: maximum authentication attempts exceeded for invalid user oracle from 119.247.141.124 port 33943 ssh2 [preauth]
+Mar 22 17:08:40 honeypot sshd[11504]: Disconnecting invalid user oracle 119.247.141.124 port 33943: Too many authentication failures [preauth]
+Mar 22 17:08:42 honeypot sshd[11507]: Invalid user oracle from 119.247.141.124 port 34090
+Mar 22 17:08:43 honeypot sshd[11507]: Received disconnect from 119.247.141.124 port 34090:11: disconnected by user [preauth]
+Mar 22 17:08:43 honeypot sshd[11507]: Disconnected from invalid user oracle 119.247.141.124 port 34090 [preauth]
+Mar 22 17:08:46 honeypot sshd[11521]: Invalid user usuario from 119.247.141.124 port 34257
+Mar 22 17:08:47 honeypot sshd[11521]: error: maximum authentication attempts exceeded for invalid user usuario from 119.247.141.124 port 34257 ssh2 [preauth]
+Mar 22 17:08:47 honeypot sshd[11521]: Disconnecting invalid user usuario 119.247.141.124 port 34257: Too many authentication failures [preauth]
+Mar 22 17:08:50 honeypot sshd[11527]: Invalid user usuario from 119.247.141.124 port 34419
+Mar 22 17:08:51 honeypot sshd[11527]: error: maximum authentication attempts exceeded for invalid user usuario from 119.247.141.124 port 34419 ssh2 [preauth]
+Mar 22 17:08:51 honeypot sshd[11527]: Disconnecting invalid user usuario 119.247.141.124 port 34419: Too many authentication failures [preauth]
+Mar 22 17:08:54 honeypot sshd[11530]: Invalid user usuario from 119.247.141.124 port 34601
+Mar 22 17:08:55 honeypot sshd[11530]: Received disconnect from 119.247.141.124 port 34601:11: disconnected by user [preauth]
+Mar 22 17:08:55 honeypot sshd[11530]: Disconnected from invalid user usuario 119.247.141.124 port 34601 [preauth]
+Mar 22 17:08:58 honeypot sshd[11533]: Invalid user test from 119.247.141.124 port 34789
+Mar 22 17:08:59 honeypot sshd[11533]: error: maximum authentication attempts exceeded for invalid user test from 119.247.141.124 port 34789 ssh2 [preauth]
+Mar 22 17:08:59 honeypot sshd[11533]: Disconnecting invalid user test 119.247.141.124 port 34789: Too many authentication failures [preauth]
+Mar 22 17:09:01 honeypot sshd[11546]: Invalid user test from 119.247.141.124 port 34949
+Mar 22 17:09:02 honeypot sshd[11546]: error: maximum authentication attempts exceeded for invalid user test from 119.247.141.124 port 34949 ssh2 [preauth]
+Mar 22 17:09:02 honeypot sshd[11546]: Disconnecting invalid user test 119.247.141.124 port 34949: Too many authentication failures [preauth]
+Mar 22 17:09:06 honeypot sshd[11549]: Invalid user test from 119.247.141.124 port 35114
+Mar 22 17:09:07 honeypot sshd[11549]: Received disconnect from 119.247.141.124 port 35114:11: disconnected by user [preauth]
+Mar 22 17:09:07 honeypot sshd[11549]: Disconnected from invalid user test 119.247.141.124 port 35114 [preauth]
+Mar 22 17:09:09 honeypot sshd[11551]: Invalid user user from 119.247.141.124 port 35284
+Mar 22 17:09:10 honeypot sshd[11551]: error: maximum authentication attempts exceeded for invalid user user from 119.247.141.124 port 35284 ssh2 [preauth]
+Mar 22 17:09:10 honeypot sshd[11551]: Disconnecting invalid user user 119.247.141.124 port 35284: Too many authentication failures [preauth]
+Mar 22 17:09:13 honeypot sshd[11553]: Invalid user user from 119.247.141.124 port 35441
+Mar 22 17:09:14 honeypot sshd[11553]: error: maximum authentication attempts exceeded for invalid user user from 119.247.141.124 port 35441 ssh2 [preauth]
+Mar 22 17:09:14 honeypot sshd[11553]: Disconnecting invalid user user 119.247.141.124 port 35441: Too many authentication failures [preauth]
+Mar 22 17:09:18 honeypot sshd[11563]: Invalid user user from 119.247.141.124 port 35623
+Mar 22 17:09:19 honeypot sshd[11563]: Received disconnect from 119.247.141.124 port 35623:11: disconnected by user [preauth]
+Mar 22 17:09:19 honeypot sshd[11563]: Disconnected from invalid user user 119.247.141.124 port 35623 [preauth]
+Mar 22 17:09:21 honeypot sshd[11571]: Invalid user ftpuser from 119.247.141.124 port 35821
+Mar 22 17:09:22 honeypot sshd[11571]: error: maximum authentication attempts exceeded for invalid user ftpuser from 119.247.141.124 port 35821 ssh2 [preauth]
+Mar 22 17:09:22 honeypot sshd[11571]: Disconnecting invalid user ftpuser 119.247.141.124 port 35821: Too many authentication failures [preauth]
+Mar 22 17:09:25 honeypot sshd[11575]: Invalid user ftpuser from 119.247.141.124 port 35979
+Mar 22 17:09:26 honeypot sshd[11575]: error: maximum authentication attempts exceeded for invalid user ftpuser from 119.247.141.124 port 35979 ssh2 [preauth]
+Mar 22 17:09:26 honeypot sshd[11575]: Disconnecting invalid user ftpuser 119.247.141.124 port 35979: Too many authentication failures [preauth]
+Mar 22 17:09:29 honeypot sshd[11577]: Invalid user ftpuser from 119.247.141.124 port 36147
+Mar 22 17:09:29 honeypot sshd[11577]: Received disconnect from 119.247.141.124 port 36147:11: disconnected by user [preauth]
+Mar 22 17:09:29 honeypot sshd[11577]: Disconnected from invalid user ftpuser 119.247.141.124 port 36147 [preauth]
+Mar 22 17:09:32 honeypot sshd[11580]: Invalid user test1 from 119.247.141.124 port 36289
+Mar 22 17:09:33 honeypot sshd[11580]: error: maximum authentication attempts exceeded for invalid user test1 from 119.247.141.124 port 36289 ssh2 [preauth]
+Mar 22 17:09:33 honeypot sshd[11580]: Disconnecting invalid user test1 119.247.141.124 port 36289: Too many authentication failures [preauth]
+Mar 22 17:09:35 honeypot sshd[11593]: Invalid user test1 from 119.247.141.124 port 36452
+Mar 22 17:09:36 honeypot sshd[11593]: error: maximum authentication attempts exceeded for invalid user test1 from 119.247.141.124 port 36452 ssh2 [preauth]
+Mar 22 17:09:36 honeypot sshd[11593]: Disconnecting invalid user test1 119.247.141.124 port 36452: Too many authentication failures [preauth]
+Mar 22 17:09:40 honeypot sshd[11595]: Invalid user test1 from 119.247.141.124 port 36603
+Mar 22 17:09:40 honeypot sshd[11595]: Received disconnect from 119.247.141.124 port 36603:11: disconnected by user [preauth]
+Mar 22 17:09:40 honeypot sshd[11595]: Disconnected from invalid user test1 119.247.141.124 port 36603 [preauth]
+Mar 22 17:09:43 honeypot sshd[11598]: Invalid user test2 from 119.247.141.124 port 36781
+Mar 22 17:09:44 honeypot sshd[11598]: error: maximum authentication attempts exceeded for invalid user test2 from 119.247.141.124 port 36781 ssh2 [preauth]
+Mar 22 17:09:44 honeypot sshd[11598]: Disconnecting invalid user test2 119.247.141.124 port 36781: Too many authentication failures [preauth]
+Mar 22 17:09:47 honeypot sshd[11602]: Invalid user test2 from 119.247.141.124 port 36950
+Mar 22 17:09:48 honeypot sshd[11602]: error: maximum authentication attempts exceeded for invalid user test2 from 119.247.141.124 port 36950 ssh2 [preauth]
+Mar 22 17:09:48 honeypot sshd[11602]: Disconnecting invalid user test2 119.247.141.124 port 36950: Too many authentication failures [preauth]
+Mar 22 17:09:51 honeypot sshd[11614]: Invalid user test2 from 119.247.141.124 port 37086
+Mar 22 17:09:52 honeypot sshd[11614]: Received disconnect from 119.247.141.124 port 37086:11: disconnected by user [preauth]
+Mar 22 17:09:52 honeypot sshd[11614]: Disconnected from invalid user test2 119.247.141.124 port 37086 [preauth]
+Mar 22 17:09:54 honeypot sshd[11618]: Invalid user contador from 119.247.141.124 port 37241
+Mar 22 17:09:55 honeypot sshd[11618]: Received disconnect from 119.247.141.124 port 37241:11: disconnected by user [preauth]
+Mar 22 17:09:55 honeypot sshd[11618]: Disconnected from invalid user contador 119.247.141.124 port 37241 [preauth]
+Mar 22 17:09:59 honeypot sshd[11620]: Invalid user ubuntu from 119.247.141.124 port 37382
+Mar 22 17:10:00 honeypot sshd[11620]: error: maximum authentication attempts exceeded for invalid user ubuntu from 119.247.141.124 port 37382 ssh2 [preauth]
+Mar 22 17:10:00 honeypot sshd[11620]: Disconnecting invalid user ubuntu 119.247.141.124 port 37382: Too many authentication failures [preauth]
+Mar 22 17:10:01 honeypot CRON[11627]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:10:02 honeypot CRON[11627]: pam_unix(cron:session): session closed for user root
+Mar 22 17:10:03 honeypot sshd[11624]: Invalid user ubuntu from 119.247.141.124 port 37616
+Mar 22 17:10:05 honeypot sshd[11624]: error: maximum authentication attempts exceeded for invalid user ubuntu from 119.247.141.124 port 37616 ssh2 [preauth]
+Mar 22 17:10:05 honeypot sshd[11624]: Disconnecting invalid user ubuntu 119.247.141.124 port 37616: Too many authentication failures [preauth]
+Mar 22 17:10:06 honeypot sshd[11640]: Invalid user ubuntu from 119.247.141.124 port 37801
+Mar 22 17:10:07 honeypot sshd[11640]: Received disconnect from 119.247.141.124 port 37801:11: disconnected by user [preauth]
+Mar 22 17:10:07 honeypot sshd[11640]: Disconnected from invalid user ubuntu 119.247.141.124 port 37801 [preauth]
+Mar 22 17:10:12 honeypot sshd[11642]: Invalid user pi from 119.247.141.124 port 37914
+Mar 22 17:10:13 honeypot sshd[11642]: Received disconnect from 119.247.141.124 port 37914:11: disconnected by user [preauth]
+Mar 22 17:10:13 honeypot sshd[11642]: Disconnected from invalid user pi 119.247.141.124 port 37914 [preauth]
+Mar 22 17:10:15 honeypot sshd[11646]: Invalid user baikal from 119.247.141.124 port 38164
+Mar 22 17:10:15 honeypot sshd[11646]: Received disconnect from 119.247.141.124 port 38164:11: disconnected by user [preauth]
+Mar 22 17:10:15 honeypot sshd[11646]: Disconnected from invalid user baikal 119.247.141.124 port 38164 [preauth]
+Mar 22 17:15:01 honeypot CRON[11907]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:15:01 honeypot CRON[11906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:15:01 honeypot CRON[11907]: pam_unix(cron:session): session closed for user root
+Mar 22 17:15:01 honeypot CRON[11906]: pam_unix(cron:session): session closed for user root
+Mar 22 17:17:01 honeypot CRON[12022]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:17:01 honeypot CRON[12022]: pam_unix(cron:session): session closed for user root
+Mar 22 17:19:01 honeypot CRON[12146]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 17:19:02 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 17:19:02 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 17:19:02 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:19:02 honeypot CRON[12146]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 17:20:01 honeypot CRON[12303]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:20:01 honeypot CRON[12303]: pam_unix(cron:session): session closed for user root
+Mar 22 17:25:01 honeypot CRON[12574]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:25:01 honeypot CRON[12574]: pam_unix(cron:session): session closed for user root
+Mar 22 17:26:09 honeypot sshd[3242]: Received disconnect from 40.112.144.250 port 23208:11: disconnected by user
+Mar 22 17:26:09 honeypot sshd[3242]: Disconnected from user maryraycialyn.anteza@unlv.edu 40.112.144.250 port 23208
+Mar 22 17:26:09 honeypot sshd[3133]: pam_unix(sshd:session): session closed for user maryraycialyn.anteza@unlv.edu
+Mar 22 17:26:09 honeypot systemd-logind[574]: Session 6 logged out. Waiting for processes to exit.
+Mar 22 17:26:09 honeypot systemd-logind[574]: Removed session 6.
+Mar 22 17:28:16 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 17:28:16 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 17:28:16 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:30:01 honeypot CRON[12952]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:30:01 honeypot CRON[12951]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:30:01 honeypot CRON[12951]: pam_unix(cron:session): session closed for user root
+Mar 22 17:30:01 honeypot CRON[12952]: pam_unix(cron:session): session closed for user root
+Mar 22 17:34:01 honeypot CRON[13173]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 17:34:04 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 17:34:04 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 17:34:04 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:34:04 honeypot CRON[13173]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 17:35:01 honeypot CRON[13329]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:35:01 honeypot CRON[13329]: pam_unix(cron:session): session closed for user root
+Mar 22 17:40:01 honeypot CRON[13610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:40:01 honeypot CRON[13610]: pam_unix(cron:session): session closed for user root
+Mar 22 17:45:01 honeypot CRON[13881]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:45:01 honeypot CRON[13882]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:45:01 honeypot CRON[13881]: pam_unix(cron:session): session closed for user root
+Mar 22 17:45:01 honeypot CRON[13882]: pam_unix(cron:session): session closed for user root
+Mar 22 17:49:01 honeypot CRON[14112]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 17:49:03 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 17:49:03 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 17:49:03 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:49:04 honeypot CRON[14112]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 17:50:01 honeypot CRON[14257]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:50:01 honeypot CRON[14257]: pam_unix(cron:session): session closed for user root
+Mar 22 17:53:08 honeypot sshd[14370]: Connection closed by 192.241.228.40 port 52956 [preauth]
+Mar 22 17:54:26 honeypot sshd[14491]: Connection closed by 193.118.52.78 port 50362 [preauth]
+Mar 22 17:55:01 honeypot CRON[14531]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 17:55:01 honeypot CRON[14531]: pam_unix(cron:session): session closed for user root
+Mar 22 17:58:16 honeypot sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/opt/microsoft/omsagent/plugin/processinvestigator
+Mar 22 17:58:16 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 17:58:16 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAptUpdates.sh
+Mar 22 17:58:16 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 17:58:20 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:58:20 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:59:16 honeypot sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/opt/microsoft/omsagent/ruby/bin/ruby /opt/microsoft/omsagent/plugin/collectantimalwareinfo.rb
+Mar 22 17:59:16 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 17:59:16 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:59:17 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 17:59:17 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 17:59:18 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:59:31 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/bin/id
+Mar 22 17:59:31 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 17:59:31 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:59:31 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/sbin/waagent --version
+Mar 22 17:59:31 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 17:59:31 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 17:59:31 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/sbin/waagent --version
+Mar 22 17:59:31 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 17:59:32 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 18:00:01 honeypot CRON[15958]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:00:01 honeypot CRON[15959]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:00:01 honeypot CRON[15958]: pam_unix(cron:session): session closed for user root
+Mar 22 18:00:01 honeypot CRON[15959]: pam_unix(cron:session): session closed for user root
+Mar 22 18:04:01 honeypot CRON[16179]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 18:04:02 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 18:04:02 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 18:04:02 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 18:04:03 honeypot CRON[16179]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 18:05:01 honeypot CRON[16341]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:05:01 honeypot CRON[16341]: pam_unix(cron:session): session closed for user root
+Mar 22 18:10:01 honeypot CRON[16633]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:10:01 honeypot CRON[16633]: pam_unix(cron:session): session closed for user root
+Mar 22 18:15:01 honeypot CRON[16906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:15:01 honeypot CRON[16905]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:15:01 honeypot CRON[16906]: pam_unix(cron:session): session closed for user root
+Mar 22 18:15:01 honeypot CRON[16905]: pam_unix(cron:session): session closed for user root
+Mar 22 18:15:35 honeypot sshd[16942]: error: maximum authentication attempts exceeded for root from 91.128.181.91 port 57110 ssh2 [preauth]
+Mar 22 18:15:35 honeypot sshd[16942]: Disconnecting authenticating user root 91.128.181.91 port 57110: Too many authentication failures [preauth]
+Mar 22 18:15:37 honeypot sshd[16944]: error: maximum authentication attempts exceeded for root from 91.128.181.91 port 57528 ssh2 [preauth]
+Mar 22 18:15:37 honeypot sshd[16944]: Disconnecting authenticating user root 91.128.181.91 port 57528: Too many authentication failures [preauth]
+Mar 22 18:15:39 honeypot sshd[16946]: Received disconnect from 91.128.181.91 port 57966:11: disconnected by user [preauth]
+Mar 22 18:15:39 honeypot sshd[16946]: Disconnected from authenticating user root 91.128.181.91 port 57966 [preauth]
+Mar 22 18:15:40 honeypot sshd[16949]: Invalid user admin from 91.128.181.91 port 58398
+Mar 22 18:15:41 honeypot sshd[16949]: error: maximum authentication attempts exceeded for invalid user admin from 91.128.181.91 port 58398 ssh2 [preauth]
+Mar 22 18:15:41 honeypot sshd[16949]: Disconnecting invalid user admin 91.128.181.91 port 58398: Too many authentication failures [preauth]
+Mar 22 18:15:42 honeypot sshd[16956]: Invalid user admin from 91.128.181.91 port 58834
+Mar 22 18:15:43 honeypot sshd[16956]: error: maximum authentication attempts exceeded for invalid user admin from 91.128.181.91 port 58834 ssh2 [preauth]
+Mar 22 18:15:43 honeypot sshd[16956]: Disconnecting invalid user admin 91.128.181.91 port 58834: Too many authentication failures [preauth]
+Mar 22 18:15:44 honeypot sshd[16964]: Invalid user admin from 91.128.181.91 port 59254
+Mar 22 18:15:44 honeypot sshd[16964]: Received disconnect from 91.128.181.91 port 59254:11: disconnected by user [preauth]
+Mar 22 18:15:44 honeypot sshd[16964]: Disconnected from invalid user admin 91.128.181.91 port 59254 [preauth]
+Mar 22 18:15:46 honeypot sshd[16966]: Invalid user oracle from 91.128.181.91 port 59588
+Mar 22 18:15:46 honeypot sshd[16966]: error: maximum authentication attempts exceeded for invalid user oracle from 91.128.181.91 port 59588 ssh2 [preauth]
+Mar 22 18:15:46 honeypot sshd[16966]: Disconnecting invalid user oracle 91.128.181.91 port 59588: Too many authentication failures [preauth]
+Mar 22 18:15:47 honeypot sshd[16968]: Invalid user oracle from 91.128.181.91 port 59928
+Mar 22 18:15:48 honeypot sshd[16968]: error: maximum authentication attempts exceeded for invalid user oracle from 91.128.181.91 port 59928 ssh2 [preauth]
+Mar 22 18:15:48 honeypot sshd[16968]: Disconnecting invalid user oracle 91.128.181.91 port 59928: Too many authentication failures [preauth]
+Mar 22 18:15:49 honeypot sshd[16970]: Invalid user oracle from 91.128.181.91 port 60282
+Mar 22 18:15:49 honeypot sshd[16970]: Received disconnect from 91.128.181.91 port 60282:11: disconnected by user [preauth]
+Mar 22 18:15:49 honeypot sshd[16970]: Disconnected from invalid user oracle 91.128.181.91 port 60282 [preauth]
+Mar 22 18:15:51 honeypot sshd[16972]: Invalid user usuario from 91.128.181.91 port 60724
+Mar 22 18:15:51 honeypot sshd[16972]: error: maximum authentication attempts exceeded for invalid user usuario from 91.128.181.91 port 60724 ssh2 [preauth]
+Mar 22 18:15:51 honeypot sshd[16972]: Disconnecting invalid user usuario 91.128.181.91 port 60724: Too many authentication failures [preauth]
+Mar 22 18:15:53 honeypot sshd[16975]: Invalid user usuario from 91.128.181.91 port 32906
+Mar 22 18:15:53 honeypot sshd[16975]: error: maximum authentication attempts exceeded for invalid user usuario from 91.128.181.91 port 32906 ssh2 [preauth]
+Mar 22 18:15:53 honeypot sshd[16975]: Disconnecting invalid user usuario 91.128.181.91 port 32906: Too many authentication failures [preauth]
+Mar 22 18:15:55 honeypot sshd[16977]: Invalid user usuario from 91.128.181.91 port 33372
+Mar 22 18:15:55 honeypot sshd[16977]: Received disconnect from 91.128.181.91 port 33372:11: disconnected by user [preauth]
+Mar 22 18:15:55 honeypot sshd[16977]: Disconnected from invalid user usuario 91.128.181.91 port 33372 [preauth]
+Mar 22 18:15:56 honeypot sshd[16979]: Invalid user test from 91.128.181.91 port 33722
+Mar 22 18:15:57 honeypot sshd[16979]: error: maximum authentication attempts exceeded for invalid user test from 91.128.181.91 port 33722 ssh2 [preauth]
+Mar 22 18:15:57 honeypot sshd[16979]: Disconnecting invalid user test 91.128.181.91 port 33722: Too many authentication failures [preauth]
+Mar 22 18:15:58 honeypot sshd[16988]: Invalid user test from 91.128.181.91 port 34062
+Mar 22 18:15:59 honeypot sshd[16988]: error: maximum authentication attempts exceeded for invalid user test from 91.128.181.91 port 34062 ssh2 [preauth]
+Mar 22 18:15:59 honeypot sshd[16988]: Disconnecting invalid user test 91.128.181.91 port 34062: Too many authentication failures [preauth]
+Mar 22 18:16:00 honeypot sshd[16994]: Invalid user test from 91.128.181.91 port 34490
+Mar 22 18:16:00 honeypot sshd[16994]: Received disconnect from 91.128.181.91 port 34490:11: disconnected by user [preauth]
+Mar 22 18:16:00 honeypot sshd[16994]: Disconnected from invalid user test 91.128.181.91 port 34490 [preauth]
+Mar 22 18:16:01 honeypot sshd[16996]: Invalid user user from 91.128.181.91 port 34810
+Mar 22 18:16:02 honeypot sshd[16996]: error: maximum authentication attempts exceeded for invalid user user from 91.128.181.91 port 34810 ssh2 [preauth]
+Mar 22 18:16:02 honeypot sshd[16996]: Disconnecting invalid user user 91.128.181.91 port 34810: Too many authentication failures [preauth]
+Mar 22 18:16:03 honeypot sshd[16999]: Invalid user user from 91.128.181.91 port 35204
+Mar 22 18:16:04 honeypot sshd[16999]: error: maximum authentication attempts exceeded for invalid user user from 91.128.181.91 port 35204 ssh2 [preauth]
+Mar 22 18:16:04 honeypot sshd[16999]: Disconnecting invalid user user 91.128.181.91 port 35204: Too many authentication failures [preauth]
+Mar 22 18:16:05 honeypot sshd[17002]: Invalid user user from 91.128.181.91 port 35602
+Mar 22 18:16:05 honeypot sshd[17002]: Received disconnect from 91.128.181.91 port 35602:11: disconnected by user [preauth]
+Mar 22 18:16:05 honeypot sshd[17002]: Disconnected from invalid user user 91.128.181.91 port 35602 [preauth]
+Mar 22 18:16:06 honeypot sshd[17004]: Invalid user ftpuser from 91.128.181.91 port 35986
+Mar 22 18:16:07 honeypot sshd[17004]: error: maximum authentication attempts exceeded for invalid user ftpuser from 91.128.181.91 port 35986 ssh2 [preauth]
+Mar 22 18:16:07 honeypot sshd[17004]: Disconnecting invalid user ftpuser 91.128.181.91 port 35986: Too many authentication failures [preauth]
+Mar 22 18:16:08 honeypot sshd[17006]: Invalid user ftpuser from 91.128.181.91 port 36338
+Mar 22 18:16:09 honeypot sshd[17006]: error: maximum authentication attempts exceeded for invalid user ftpuser from 91.128.181.91 port 36338 ssh2 [preauth]
+Mar 22 18:16:09 honeypot sshd[17006]: Disconnecting invalid user ftpuser 91.128.181.91 port 36338: Too many authentication failures [preauth]
+Mar 22 18:16:10 honeypot sshd[17008]: Invalid user ftpuser from 91.128.181.91 port 36696
+Mar 22 18:16:10 honeypot sshd[17008]: Received disconnect from 91.128.181.91 port 36696:11: disconnected by user [preauth]
+Mar 22 18:16:10 honeypot sshd[17008]: Disconnected from invalid user ftpuser 91.128.181.91 port 36696 [preauth]
+Mar 22 18:16:11 honeypot sshd[17010]: Invalid user test1 from 91.128.181.91 port 37040
+Mar 22 18:16:12 honeypot sshd[17010]: error: maximum authentication attempts exceeded for invalid user test1 from 91.128.181.91 port 37040 ssh2 [preauth]
+Mar 22 18:16:12 honeypot sshd[17010]: Disconnecting invalid user test1 91.128.181.91 port 37040: Too many authentication failures [preauth]
+Mar 22 18:16:13 honeypot sshd[17014]: Invalid user test1 from 91.128.181.91 port 37398
+Mar 22 18:16:14 honeypot sshd[17014]: error: maximum authentication attempts exceeded for invalid user test1 from 91.128.181.91 port 37398 ssh2 [preauth]
+Mar 22 18:16:14 honeypot sshd[17014]: Disconnecting invalid user test1 91.128.181.91 port 37398: Too many authentication failures [preauth]
+Mar 22 18:16:15 honeypot sshd[17026]: Invalid user test1 from 91.128.181.91 port 37822
+Mar 22 18:16:15 honeypot sshd[17026]: Received disconnect from 91.128.181.91 port 37822:11: disconnected by user [preauth]
+Mar 22 18:16:15 honeypot sshd[17026]: Disconnected from invalid user test1 91.128.181.91 port 37822 [preauth]
+Mar 22 18:16:17 honeypot sshd[17028]: Invalid user test2 from 91.128.181.91 port 38196
+Mar 22 18:16:17 honeypot sshd[17028]: error: maximum authentication attempts exceeded for invalid user test2 from 91.128.181.91 port 38196 ssh2 [preauth]
+Mar 22 18:16:17 honeypot sshd[17028]: Disconnecting invalid user test2 91.128.181.91 port 38196: Too many authentication failures [preauth]
+Mar 22 18:16:18 honeypot sshd[17030]: Invalid user test2 from 91.128.181.91 port 38628
+Mar 22 18:16:19 honeypot sshd[17030]: error: maximum authentication attempts exceeded for invalid user test2 from 91.128.181.91 port 38628 ssh2 [preauth]
+Mar 22 18:16:19 honeypot sshd[17030]: Disconnecting invalid user test2 91.128.181.91 port 38628: Too many authentication failures [preauth]
+Mar 22 18:16:20 honeypot sshd[17035]: Invalid user test2 from 91.128.181.91 port 39030
+Mar 22 18:16:21 honeypot sshd[17035]: Received disconnect from 91.128.181.91 port 39030:11: disconnected by user [preauth]
+Mar 22 18:16:21 honeypot sshd[17035]: Disconnected from invalid user test2 91.128.181.91 port 39030 [preauth]
+Mar 22 18:16:22 honeypot sshd[17037]: Invalid user contador from 91.128.181.91 port 39360
+Mar 22 18:16:22 honeypot sshd[17037]: Received disconnect from 91.128.181.91 port 39360:11: disconnected by user [preauth]
+Mar 22 18:16:22 honeypot sshd[17037]: Disconnected from invalid user contador 91.128.181.91 port 39360 [preauth]
+Mar 22 18:16:23 honeypot sshd[17040]: Invalid user ubuntu from 91.128.181.91 port 39640
+Mar 22 18:16:24 honeypot sshd[17040]: error: maximum authentication attempts exceeded for invalid user ubuntu from 91.128.181.91 port 39640 ssh2 [preauth]
+Mar 22 18:16:24 honeypot sshd[17040]: Disconnecting invalid user ubuntu 91.128.181.91 port 39640: Too many authentication failures [preauth]
+Mar 22 18:16:25 honeypot sshd[17042]: Invalid user ubuntu from 91.128.181.91 port 40062
+Mar 22 18:16:26 honeypot sshd[17042]: error: maximum authentication attempts exceeded for invalid user ubuntu from 91.128.181.91 port 40062 ssh2 [preauth]
+Mar 22 18:16:26 honeypot sshd[17042]: Disconnecting invalid user ubuntu 91.128.181.91 port 40062: Too many authentication failures [preauth]
+Mar 22 18:16:27 honeypot sshd[17044]: Invalid user ubuntu from 91.128.181.91 port 40490
+Mar 22 18:16:28 honeypot sshd[17044]: Received disconnect from 91.128.181.91 port 40490:11: disconnected by user [preauth]
+Mar 22 18:16:28 honeypot sshd[17044]: Disconnected from invalid user ubuntu 91.128.181.91 port 40490 [preauth]
+Mar 22 18:16:29 honeypot sshd[17047]: Invalid user pi from 91.128.181.91 port 40850
+Mar 22 18:16:30 honeypot sshd[17047]: Received disconnect from 91.128.181.91 port 40850:11: disconnected by user [preauth]
+Mar 22 18:16:30 honeypot sshd[17047]: Disconnected from invalid user pi 91.128.181.91 port 40850 [preauth]
+Mar 22 18:16:31 honeypot sshd[17059]: Invalid user baikal from 91.128.181.91 port 41256
+Mar 22 18:16:31 honeypot sshd[17059]: Received disconnect from 91.128.181.91 port 41256:11: disconnected by user [preauth]
+Mar 22 18:16:31 honeypot sshd[17059]: Disconnected from invalid user baikal 91.128.181.91 port 41256 [preauth]
+Mar 22 18:17:01 honeypot CRON[17083]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:17:01 honeypot CRON[17083]: pam_unix(cron:session): session closed for user root
+Mar 22 18:19:01 honeypot CRON[17212]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 18:19:02 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 18:19:02 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 18:19:02 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 18:19:03 honeypot CRON[17212]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 18:20:01 honeypot CRON[17370]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:20:01 honeypot CRON[17370]: pam_unix(cron:session): session closed for user root
+Mar 22 18:20:29 honeypot sshd[17392]: error: kex_exchange_identification: Connection closed by remote host
+Mar 22 18:20:43 honeypot sshd[17393]: Connection closed by 171.118.63.42 port 43057 [preauth]
+Mar 22 18:25:01 honeypot CRON[17636]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:25:01 honeypot CRON[17636]: pam_unix(cron:session): session closed for user root
+Mar 22 18:29:18 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 18:29:18 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 18:29:18 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 18:30:01 honeypot CRON[18021]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:30:01 honeypot CRON[18020]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:30:01 honeypot CRON[18021]: pam_unix(cron:session): session closed for user root
+Mar 22 18:30:01 honeypot CRON[18020]: pam_unix(cron:session): session closed for user root
+Mar 22 18:32:43 honeypot sshd[18168]: error: type 20 seq 2 [preauth]
+Mar 22 18:32:43 honeypot sshd[18168]: error: type 30 seq 3 [preauth]
+Mar 22 18:32:45 honeypot sshd[18168]: error: type 20 seq 4 [preauth]
+Mar 22 18:32:45 honeypot sshd[18168]: error: type 30 seq 5 [preauth]
+Mar 22 18:32:47 honeypot sshd[18168]: error: type 20 seq 6 [preauth]
+Mar 22 18:32:47 honeypot sshd[18168]: error: type 30 seq 7 [preauth]
+Mar 22 18:33:15 honeypot sshd[18168]: Connection reset by 79.133.202.80 port 61000 [preauth]
+Mar 22 18:34:01 honeypot CRON[18242]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 18:34:02 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 18:34:02 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 18:34:02 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 18:34:02 honeypot CRON[18242]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 18:35:01 honeypot CRON[18400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:35:01 honeypot CRON[18400]: pam_unix(cron:session): session closed for user root
+Mar 22 18:40:01 honeypot CRON[18682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:40:01 honeypot CRON[18682]: pam_unix(cron:session): session closed for user root
+Mar 22 18:45:01 honeypot CRON[18944]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:45:01 honeypot CRON[18943]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:45:01 honeypot CRON[18944]: pam_unix(cron:session): session closed for user root
+Mar 22 18:45:01 honeypot CRON[18943]: pam_unix(cron:session): session closed for user root
+Mar 22 18:49:01 honeypot CRON[19173]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 18:49:03 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 18:49:03 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 18:49:03 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 18:49:03 honeypot CRON[19173]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 18:50:01 honeypot CRON[19330]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:50:01 honeypot CRON[19330]: pam_unix(cron:session): session closed for user root
+Mar 22 18:55:01 honeypot CRON[19601]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 18:55:01 honeypot CRON[19601]: pam_unix(cron:session): session closed for user root
+Mar 22 18:58:22 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAptUpdates.sh
+Mar 22 18:58:22 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 18:58:26 honeypot sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/opt/microsoft/omsagent/plugin/processinvestigator
+Mar 22 18:58:26 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 18:58:28 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 18:58:29 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 18:59:19 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 18:59:19 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 18:59:19 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:00:01 honeypot CRON[20539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:00:01 honeypot CRON[20538]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:00:01 honeypot CRON[20539]: pam_unix(cron:session): session closed for user root
+Mar 22 19:00:01 honeypot CRON[20538]: pam_unix(cron:session): session closed for user root
+Mar 22 19:00:16 honeypot sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/opt/microsoft/omsagent/ruby/bin/ruby /opt/microsoft/omsagent/plugin/collectantimalwareinfo.rb
+Mar 22 19:00:16 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:00:16 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:04:01 honeypot CRON[20786]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 19:04:03 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 19:04:03 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:04:03 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:04:03 honeypot CRON[20786]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 19:05:01 honeypot CRON[20941]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:05:01 honeypot CRON[20941]: pam_unix(cron:session): session closed for user root
+Mar 22 19:09:44 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/bin/id
+Mar 22 19:09:44 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:09:44 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:09:44 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/sbin/waagent --version
+Mar 22 19:09:44 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:09:45 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:09:45 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/sbin/waagent --version
+Mar 22 19:09:45 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:09:45 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:09:45 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/bin/id
+Mar 22 19:09:45 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:09:45 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:09:45 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/bin/apt-get -q update
+Mar 22 19:09:45 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:09:49 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:10:01 honeypot CRON[22200]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:10:01 honeypot CRON[22200]: pam_unix(cron:session): session closed for user root
+Mar 22 19:10:45 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/bin/grep -hR  /etc/apt/sources.list /etc/apt/sources.list.d/
+Mar 22 19:10:45 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:10:45 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:10:45 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/bin/apt-get -q update -oDir::Etc::Sourcelist=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50/tmp/azgps-patch-custom-4628028c-9368-4729-9419-5d3bd3cfd36f.list
+Mar 22 19:10:45 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:10:48 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:10:48 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/bin/apt-get -s dist-upgrade -oDir::Etc::Sourcelist=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50/tmp/azgps-patch-custom-4628028c-9368-4729-9419-5d3bd3cfd36f.list
+Mar 22 19:10:48 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:10:48 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:10:48 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/bin/grep -hR security /etc/apt/sources.list /etc/apt/sources.list.d/
+Mar 22 19:10:48 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:10:48 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:10:48 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/bin/apt-get -q update -oDir::Etc::Sourcelist=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50/tmp/azgps-patch-custom-4628028c-9368-4729-9419-5d3bd3cfd36f.list
+Mar 22 19:10:48 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:10:50 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:10:50 honeypot sudo:     root : TTY=unknown ; PWD=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50 ; USER=root ; COMMAND=/usr/bin/apt-get -s dist-upgrade -oDir::Etc::Sourcelist=/var/lib/waagent/Microsoft.CPlat.Core.LinuxPatchExtension-1.6.50/tmp/azgps-patch-custom-4628028c-9368-4729-9419-5d3bd3cfd36f.list
+Mar 22 19:10:50 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:10:50 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:14:27 honeypot sshd[23191]: Connection closed by authenticating user root 179.43.180.106 port 48948 [preauth]
+Mar 22 19:14:28 honeypot sshd[23193]: Connection closed by authenticating user root 179.43.180.106 port 48956 [preauth]
+Mar 22 19:14:29 honeypot sshd[23195]: Connection closed by authenticating user root 179.43.180.106 port 48968 [preauth]
+Mar 22 19:14:30 honeypot sshd[23197]: Connection closed by authenticating user root 179.43.180.106 port 48980 [preauth]
+Mar 22 19:14:31 honeypot sshd[23199]: Connection closed by authenticating user root 179.43.180.106 port 48982 [preauth]
+Mar 22 19:14:31 honeypot sshd[23201]: Connection closed by authenticating user root 179.43.180.106 port 48992 [preauth]
+Mar 22 19:14:32 honeypot sshd[23203]: Connection closed by authenticating user root 179.43.180.106 port 46138 [preauth]
+Mar 22 19:14:33 honeypot sshd[23206]: Connection closed by authenticating user root 179.43.180.106 port 46154 [preauth]
+Mar 22 19:14:34 honeypot sshd[23208]: Connection closed by authenticating user root 179.43.180.106 port 46158 [preauth]
+Mar 22 19:14:35 honeypot sshd[23210]: Connection closed by authenticating user root 179.43.180.106 port 46160 [preauth]
+Mar 22 19:14:36 honeypot sshd[23212]: Connection closed by authenticating user root 179.43.180.106 port 46170 [preauth]
+Mar 22 19:14:36 honeypot sshd[23214]: Connection closed by authenticating user root 179.43.180.106 port 46178 [preauth]
+Mar 22 19:14:38 honeypot sshd[23216]: Connection closed by authenticating user root 179.43.180.106 port 46194 [preauth]
+Mar 22 19:14:38 honeypot sshd[23218]: Connection closed by authenticating user root 179.43.180.106 port 46200 [preauth]
+Mar 22 19:14:39 honeypot sshd[23220]: Connection closed by authenticating user root 179.43.180.106 port 46204 [preauth]
+Mar 22 19:14:40 honeypot sshd[23222]: Connection closed by authenticating user root 179.43.180.106 port 46212 [preauth]
+Mar 22 19:14:41 honeypot sshd[23230]: Connection closed by authenticating user root 179.43.180.106 port 46228 [preauth]
+Mar 22 19:14:41 honeypot sshd[23236]: Connection closed by authenticating user root 179.43.180.106 port 46244 [preauth]
+Mar 22 19:14:42 honeypot sshd[23238]: Connection closed by authenticating user root 179.43.180.106 port 39098 [preauth]
+Mar 22 19:14:44 honeypot sshd[23242]: Connection closed by authenticating user root 179.43.180.106 port 39112 [preauth]
+Mar 22 19:15:01 honeypot CRON[23259]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:15:01 honeypot CRON[23258]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:15:01 honeypot CRON[23258]: pam_unix(cron:session): session closed for user root
+Mar 22 19:15:01 honeypot CRON[23259]: pam_unix(cron:session): session closed for user root
+Mar 22 19:17:01 honeypot CRON[23364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:17:01 honeypot CRON[23364]: pam_unix(cron:session): session closed for user root
+Mar 22 19:19:01 honeypot CRON[23498]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 19:19:03 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 19:19:03 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:19:03 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:19:04 honeypot CRON[23498]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 19:20:01 honeypot CRON[23655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:20:01 honeypot CRON[23655]: pam_unix(cron:session): session closed for user root
+Mar 22 19:25:01 honeypot CRON[23917]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:25:01 honeypot CRON[23917]: pam_unix(cron:session): session closed for user root
+Mar 22 19:29:20 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 19:29:20 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:29:20 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:30:01 honeypot CRON[24301]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:30:01 honeypot CRON[24302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:30:01 honeypot CRON[24301]: pam_unix(cron:session): session closed for user root
+Mar 22 19:30:01 honeypot CRON[24302]: pam_unix(cron:session): session closed for user root
+Mar 22 19:34:01 honeypot CRON[24520]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 19:34:01 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 19:34:01 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:34:02 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:34:02 honeypot CRON[24520]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 19:35:01 honeypot CRON[24677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:35:01 honeypot CRON[24677]: pam_unix(cron:session): session closed for user root
+Mar 22 19:38:50 honeypot sshd[24877]: Invalid user user from 218.156.128.226 port 49325
+Mar 22 19:39:07 honeypot sshd[24877]: error: maximum authentication attempts exceeded for invalid user user from 218.156.128.226 port 49325 ssh2 [preauth]
+Mar 22 19:39:07 honeypot sshd[24877]: Disconnecting invalid user user 218.156.128.226 port 49325: Too many authentication failures [preauth]
+Mar 22 19:39:15 honeypot sshd[24922]: Received disconnect from 122.114.28.225 port 46310:11: Bye Bye [preauth]
+Mar 22 19:39:15 honeypot sshd[24922]: Disconnected from 122.114.28.225 port 46310 [preauth]
+Mar 22 19:39:17 honeypot sshd[24908]: Invalid user user from 218.156.128.226 port 49468
+Mar 22 19:39:18 honeypot sshd[24908]: Connection closed by invalid user user 218.156.128.226 port 49468 [preauth]
+Mar 22 19:40:01 honeypot CRON[24962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:40:01 honeypot CRON[24962]: pam_unix(cron:session): session closed for user root
+Mar 22 19:43:25 honeypot sshd[3363]: Timeout, client not responding from user mrja 174.72.211.11 port 50645
+Mar 22 19:43:25 honeypot sshd[3284]: pam_unix(sshd:session): session closed for user mrja
+Mar 22 19:43:25 honeypot systemd-logind[574]: Session 8 logged out. Waiting for processes to exit.
+Mar 22 19:43:25 honeypot systemd-logind[574]: Removed session 8.
+Mar 22 19:45:01 honeypot CRON[25230]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:45:01 honeypot CRON[25229]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:45:01 honeypot CRON[25230]: pam_unix(cron:session): session closed for user root
+Mar 22 19:45:01 honeypot CRON[25229]: pam_unix(cron:session): session closed for user root
+Mar 22 19:49:01 honeypot CRON[25460]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 19:49:04 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 19:49:04 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:49:04 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:49:04 honeypot CRON[25460]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 19:50:01 honeypot CRON[25617]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:50:01 honeypot CRON[25617]: pam_unix(cron:session): session closed for user root
+Mar 22 19:55:01 honeypot CRON[25889]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 19:55:01 honeypot CRON[25889]: pam_unix(cron:session): session closed for user root
+Mar 22 19:58:30 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAptUpdates.sh
+Mar 22 19:58:30 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:58:36 honeypot sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/opt/microsoft/omsagent/plugin/processinvestigator
+Mar 22 19:58:36 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:58:39 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:58:39 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:59:21 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 19:59:21 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 19:59:21 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 19:59:26 honeypot sshd[26790]: Accepted publickey for mrja from 174.72.211.11 port 52707 ssh2: RSA SHA256:vWM8pU9yXjJ63BZiBSK1oOs3Gr8hXu3TNVRa2FT5qqA
+Mar 22 19:59:26 honeypot sshd[26790]: pam_unix(sshd:session): session opened for user mrja by (uid=0)
+Mar 22 19:59:26 honeypot systemd-logind[574]: New session 69 of user mrja.
+Mar 22 19:59:26 honeypot systemd: pam_unix(systemd-user:session): session opened for user mrja by (uid=0)
+Mar 22 20:00:01 honeypot CRON[26934]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 20:00:01 honeypot CRON[26936]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 20:00:01 honeypot CRON[26934]: pam_unix(cron:session): session closed for user root
+Mar 22 20:00:01 honeypot CRON[26935]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 20:00:01 honeypot CRON[26936]: pam_unix(cron:session): session closed for user root
+Mar 22 20:00:02 honeypot CRON[26935]: pam_unix(cron:session): session closed for user root
+Mar 22 20:00:09 honeypot sshd[26896]: Received disconnect from 174.72.211.11 port 52707:11: disconnected by user
+Mar 22 20:00:09 honeypot sshd[26896]: Disconnected from user mrja 174.72.211.11 port 52707
+Mar 22 20:00:09 honeypot sshd[26790]: pam_unix(sshd:session): session closed for user mrja
+Mar 22 20:00:09 honeypot systemd-logind[574]: Session 69 logged out. Waiting for processes to exit.
+Mar 22 20:00:09 honeypot systemd-logind[574]: Removed session 69.
+Mar 22 20:00:26 honeypot sshd[26974]: Invalid user  from 66.240.192.82 port 45570
+Mar 22 20:00:35 honeypot sshd[26974]: Connection closed by invalid user  66.240.192.82 port 45570 [preauth]
+Mar 22 20:01:16 honeypot sudo: omsagent : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/opt/microsoft/omsagent/ruby/bin/ruby /opt/microsoft/omsagent/plugin/collectantimalwareinfo.rb
+Mar 22 20:01:16 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 20:01:16 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:04:01 honeypot CRON[27193]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 20:04:01 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 20:04:01 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 20:04:01 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:04:02 honeypot CRON[27193]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 20:05:01 honeypot CRON[27357]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 20:05:01 honeypot CRON[27357]: pam_unix(cron:session): session closed for user root
+Mar 22 20:10:01 honeypot CRON[27657]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 20:10:01 honeypot CRON[27657]: pam_unix(cron:session): session closed for user root
+Mar 22 20:15:01 honeypot CRON[27930]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 20:15:01 honeypot CRON[27931]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 20:15:01 honeypot CRON[27931]: pam_unix(cron:session): session closed for user root
+Mar 22 20:15:01 honeypot CRON[27930]: pam_unix(cron:session): session closed for user root
+Mar 22 20:17:01 honeypot CRON[28035]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 20:17:01 honeypot CRON[28035]: pam_unix(cron:session): session closed for user root
+Mar 22 20:19:01 honeypot CRON[28169]: pam_unix(cron:session): session opened for user omsagent by (uid=0)
+Mar 22 20:19:02 honeypot sudo: omsagent : TTY=unknown ; PWD=/opt/microsoft/omsconfig/Scripts/3.x ; USER=root ; COMMAND=/opt/microsoft/omsconfig/Scripts/OMSAuditdPlugin.sh get /var/opt/microsoft/omsagent/875c47fc-0c42-4ad5-98c7-6e44edf6da4f/tmp
+Mar 22 20:19:02 honeypot sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 22 20:19:02 honeypot sudo: pam_unix(sudo:session): session closed for user root
+Mar 22 20:19:02 honeypot CRON[28169]: pam_unix(cron:session): session closed for user omsagent
+Mar 22 20:20:01 honeypot CRON[28317]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 22 20:20:01 honeypot CRON[28317]: pam_unix(cron:session): session closed for user root
+Mar 22 20:24:09 honeypot sshd[28545]: Accepted publickey for mrja from 174.72.211.11 port 53208 ssh2: RSA SHA256:vWM8pU9yXjJ63BZiBSK1oOs3Gr8hXu3TNVRa2FT5qqA
+Mar 22 20:24:09 honeypot sshd[28545]: pam_unix(sshd:session): session opened for user mrja by (uid=0)
+Mar 22 20:24:09 honeypot systemd-logind[574]: New session 82 of user mrja.
+Mar 22 20:24:09 honeypot systemd: pam_unix(systemd-user:session): session opened for user mrja by (uid=0)
+Mar 22 20:24:20 honeypot aad_certhandler[28649]: Version: 1.0.023850001; user: maryraycialyn.anteza@unlv.edu
+Mar 22 20:24:20 honeypot aad_certhandler[28649]: This is an Azure machine
+Mar 22 20:24:20 honeypot sshd[28647]: Certificate extension "displayname@sshservice.azure.net" is not supported
+Mar 22 20:24:20 honeypot sshd[28647]: Certificate extension "oid@sshservice.azure.net" is not supported
+Mar 22 20:24:20 honeypot sshd[28647]: Certificate extension "tid@sshservice.azure.net" is not supported
+Mar 22 20:24:20 honeypot aad_certhandler[28650]: Version: 1.0.023850001; user: maryraycialyn.anteza@unlv.edu
+Mar 22 20:24:20 honeypot aad_certhandler[28650]: This is an Azure machine
+Mar 22 20:24:20 honeypot sshd[28647]: Certificate extension "displayname@sshservice.azure.net" is not supported
+Mar 22 20:24:20 honeypot sshd[28647]: Certificate extension "oid@sshservice.azure.net" is not supported
+Mar 22 20:24:20 honeypot sshd[28647]: Certificate extension "tid@sshservice.azure.net" is not supported
+Mar 22 20:24:20 honeypot sshd[28647]: pam_aad(sshd:account): AadAuthorize, Version: 1.0.023850001; CorrelationId: fa58d7a2-3306-46b7-9eff-c187d6ed6eb9
+Mar 22 20:24:20 honeypot sshd[28647]: pam_aad(sshd:account): This is an Azure machine
+Mar 22 20:24:21 honeypot sshd[28647]: pam_aad(sshd:account): Login granted for maryraycialyn.anteza@unlv.edu as an admin.
+Mar 22 20:24:21 honeypot sshd[28647]: Accepted publickey for maryraycialyn.anteza@unlv.edu from 52.160.69.202 port 44712 ssh2: RSA-CERT SHA256:5+32ua2+I7aT9a2NInoLXNAXibQBa57PKo9vwFr0Yfk ID cc5ce520-a6d9-4241-bf13-6dec246b8696@1a8394eb-b8b1-4871-ae52-56e04831f0a3 (serial 0) CA RSA SHA256:TpTTqdmn63GXwdaVqK03Q6HuUmyrEFCwH4QkrK5a1bg
+Mar 22 20:24:21 honeypot sshd[28647]: pam_unix(sshd:session): session opened for user maryraycialyn.anteza@unlv.edu by (uid=0)
+Mar 22 20:24:21 honeypot systemd-logind[574]: New session 84 of user maryraycialyn.anteza@unlv.edu.
+Mar 22 20:24:21 honeypot systemd: pam_aad(systemd-user:account): AadAuthorize, Version: 1.0.023850001; CorrelationId: 104978ba-44c7-4b8a-8ccd-d0832f4554d3
+Mar 22 20:24:21 honeypot systemd: pam_aad(systemd-user:account): This is an Azure machine
+Mar 22 20:24:21 honeypot systemd: pam_aad(systemd-user:account): Login granted for maryraycialyn.anteza@unlv.edu as an admin.
+Mar 22 20:24:21 honeypot systemd: pam_unix(systemd-user:session): session opened for user maryraycialyn.anteza@unlv.edu by (uid=0)
+
