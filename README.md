@@ -22,17 +22,17 @@ After leaving my virtual machine on for a couple days, I entered the command `ta
 
 I analyzed a couple of IP addresses that I found in the logs by using https://urlscan.io/. From the logs, I chose three to analyze.
 
-`Mar 22 18:16:17 honeypot sshd[17028]: Invalid user test2 from 91.128.181.91 port 38196
-Mar 22 18:16:17 honeypot sshd[17028]: error: maximum authentication attempts exceeded for invalid user test2 from 91.128.181.91 port 38196 ssh2 [preauth]`
+`Mar 22 18:16:17 honeypot sshd[17028]: Invalid user test2 from 91.128.181.91 port 38196`
+`Mar 22 18:16:17 honeypot sshd[17028]: error: maximum authentication attempts exceeded for invalid user test2 from 91.128.181.91 port 38196 ssh2 [preauth]`
 * urlscan gave me results saying 'We could not scan this website!' with the error text: `net::ERR_CONNECTION_REFUSED`. This IP address was actually found more than 10 times trying to access my VM. However, there are many reasons why this error might've popped up. I figured that whoever was trying to access my VM unauthorized has a DNS issue or insecure TLS.
 
-`Mar 22 19:39:15 honeypot sshd[24922]: Received disconnect from 122.114.28.225 port 46310:11: Bye Bye [preauth]
-Mar 22 19:39:15 honeypot sshd[24922]: Disconnected from 122.114.28.225 port 46310 [preauth]`
+`Mar 22 19:39:15 honeypot sshd[24922]: Received disconnect from 122.114.28.225 port 46310:11: Bye Bye [preauth]`
+`Mar 22 19:39:15 honeypot sshd[24922]: Disconnected from 122.114.28.225 port 46310 [preauth]`
 * urlscan has found that this IP address is located in China. It looks like they were able to log into my VM briefly then disconnected.
 
-`Mar 22 17:09:59 honeypot sshd[11620]: Invalid user ubuntu from 119.247.141.124 port 37382
-Mar 22 17:10:00 honeypot sshd[11620]: error: maximum authentication attempts exceeded for invalid user ubuntu from 119.247.141.124 port 37382 ssh2 [preauth]
-Mar 22 17:10:00 honeypot sshd[11620]: Disconnecting invalid user ubuntu 119.247.141.124 port 37382: Too many authentication failures [preauth]`
+`Mar 22 17:09:59 honeypot sshd[11620]: Invalid user ubuntu from 119.247.141.124 port 37382`
+`Mar 22 17:10:00 honeypot sshd[11620]: error: maximum authentication attempts exceeded for invalid user ubuntu from 119.247.141.124 port 37382 ssh2 [preauth]`
+`Mar 22 17:10:00 honeypot sshd[11620]: Disconnecting invalid user ubuntu 119.247.141.124 port 37382: Too many authentication failures [preauth]`
 * urlscan has found that this IP address is located in Hong Kong. Similar to the first IP address I analyzed, this one had more than 50 attempts trying to log in as well. However, I noticed that they are trying multiple usernames to log in. For example, this one says user ubuntu. If you refer back to the logs, they've tried usernames admin, oracle, test1, many others.
 
 **Summary:**
