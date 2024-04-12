@@ -37,7 +37,7 @@ Mar 22 17:10:00 honeypot sshd[11620]: Disconnecting invalid user ubuntu 119.247.
 
 **Summary:**
 
-This project helped me to gain a better understanding of the world of cybersecurity. I got to experience first-hand how it looks like to get infiltrated by unauthorized users, as well as learning how to inspect the logs. Creating and observing a honeypot is only my first step into getting more skilled at becoming a cyber analyst.
+This project helped me to gain a better understanding of the world of cybersecurity. I got to experience first-hand how it looks like to get infiltrated by unauthorized users, as well as learning how to inspect the logs. Creating and observing a honeypot is only my first step into getting more skilled at becoming a cyber analyst. Also, as a first-time user of Microsoft Azure, I got to explore the platform and familiarize myself with its different tools and features. I would definitely like to continue utilizing a cloud platform in my future career so this is a great start in my path. 
 
 **References:**
 
