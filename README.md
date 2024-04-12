@@ -7,7 +7,7 @@ A honeypot is a cybersecurity mechanism designed to lure attackers by mimicking 
 
 However, for this project specifically, I will only be looking through its logs after leaving the virtual machine open for a couple days and analyzing malicious IP addresses. I figured that this would be a great opportunity for me to get exposed to the cybersecurity world and see first hand how it would look like when attackers get involved in the tech world.
 
-![cowrielog](https://github.com/redxanderia/azure_honeypot/assets/161082036/7568f30a-2044-466b-b079-108eafcda722)
+![cowrielog](https://github.com/redxanderia/azure_honeypot/assets/161082036/58d2231d-a04c-43fe-a08f-3cad27cffc77)
 > Screenshot of an overview of my honeypot in Microsoft Azure.
 
 **Overview:**
