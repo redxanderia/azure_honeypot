@@ -10,15 +10,15 @@ However, for this project specifically, I will only be looking through its logs 
 ![cowrielog](https://github.com/redxanderia/azure_honeypot/assets/161082036/58d2231d-a04c-43fe-a08f-3cad27cffc77)
 > Screenshot of an overview of my honeypot in Microsoft Azure.
 
-**Overview:**
+### Overview:
 
 I used Microsoft Azure to create my honeypot virtual machine. It uses Linux OS, version: Ubuntu 20.04.6 LTS. By making my virtual machine vulnerable, I opened ports 80 and 22, and left it powered on for a couple days. I also installed cowrie to help attract attackers. Cowrie is a medium interaction SSH and Telnet honeypot designed to log brute force attacks and shell interaction performed by an attacker. 
 
-**Log Details:**
+### Log Details:
 
 After leaving my virtual machine on for a couple days, I entered the command `tail -f cowrie.log` to look at the logs and found a long list of unknown IP addresses. Please feel free to look at the logs in the attached files.
 
-**Findings:**
+### Findings:
 
 I analyzed a couple of IP addresses that I found in the logs by using https://urlscan.io/. From the logs, I chose three to analyze.
 
@@ -41,10 +41,11 @@ Mar 22 17:10:00 honeypot sshd[11620]: Disconnecting invalid user ubuntu 119.247.
 ```
 * urlscan has found that this IP address is located in Hong Kong. Similar to the first IP address I analyzed, this one had more than 50 attempts trying to log in as well. However, I noticed that they are trying multiple usernames to log in. For example, this one says user ubuntu. If you refer back to the logs, they've tried usernames admin, oracle, test1, many others.
 
-**Summary:**
+### Summary:
 
 This project helped me to gain a better understanding of the world of cybersecurity. I got to experience first-hand how it looks like to get infiltrated by unauthorized users, as well as learning how to inspect the logs. Creating and observing a honeypot is only my first step into getting more skilled at becoming a cyber analyst. Also, as a first-time user of Microsoft Azure, I got to explore the platform and familiarize myself with its different tools and features. I would definitely like to continue utilizing a cloud platform in my future career so this is a great start in my path. 
 
-**References:**
+### References:
 
 https://github.com/cowrie/cowrie
+https://github.com/Mandalorian2022/Honeypot-Server
