@@ -26,7 +26,7 @@ I analyzed a couple of IP addresses that I found in the logs by using https://ur
 Mar 22 18:16:17 honeypot sshd[17028]: Invalid user test2 from 91.128.181.91 port 38196
 Mar 22 18:16:17 honeypot sshd[17028]: error: maximum authentication attempts exceeded for invalid user test2 from 91.128.181.91 port 38196 ssh2 [preauth]
 ```
-* urlscan gave me results saying 'We could not scan this website!' with the error text: `net::ERR_CONNECTION_REFUSED`. This IP address was actually found more than 10 times trying to access my VM. However, there are many reasons why this error might've popped up. I figured that whoever was trying to access my VM unauthorized has a DNS issue or insecure TLS.
+* urlscan gave me results saying 'We could not scan this website!' with the error text: `net::ERR_CONNECTION_REFUSED`. This IP address was found more than 10 times trying to access my VM. However, there are many reasons why this error might've popped up. I figured that whoever was trying to access my VM unauthorized has a DNS issue or insecure TLS.
 
 ```
 Mar 22 19:39:15 honeypot sshd[24922]: Received disconnect from 122.114.28.225 port 46310:11: Bye Bye [preauth]
